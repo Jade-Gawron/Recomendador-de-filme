@@ -47,7 +47,7 @@ function geraRecomendacao(idade, gostaDeFantasia, gostaDeAventura) {
     if (gostaDeFantasia) {
       return "@jadegawronterra";
     } else {
-      return "Todo Hacker tem um início, Jade na área!";
+      return "Jade na área!";
     }
   }
 }
