@@ -7,8 +7,8 @@ function setup() {
   createElement("h2", "@jadegawronterra");
   createSpan("Sua idade:");
   campoIdade = createInput("5");
-  campoFantasia = createCheckbox("Gosta de filmes de ação?");
-  campoAventura = createCheckbox("Gosta de filmes com fantasia?");
+  campoFantasia = createCheckbox("Gosta de filmes de fantasia?");
+  campoAventura = createCheckbox("Gosta de filmes de aventura?");
 }
 
 function draw() {
@@ -31,23 +31,23 @@ function geraRecomendacao(idade, gostaDeFantasia, gostaDeAventura) {
     } else {
       if (idade >= 12) {
         if(gostaDeFantasia || gostaDeAventura) {
-          return "Github-professor-rafael";          
+          return "Github-jade-terra";          
         } else{
          return "Programando com html e css";
         }
       } else {
         if (gostaDeFantasia) {
-          return "Tele hackers";
+          return "Love Hackers";
         } else {
-          return "Nenhum sistema é 100% seguro";
+          return "Irei hackear você.";
         }
       }
     }
   } else {
     if (gostaDeFantasia) {
-      return "@rasinformática";
+      return "@jadegawronterra";
     } else {
-      return "Todo Hacker tem um início";
+      return "Todo Hacker tem um início, Jade na área!";
     }
   }
 }
