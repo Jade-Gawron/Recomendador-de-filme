@@ -4,11 +4,11 @@ let campoAventura;
 
 function setup() {
   createCanvas(800, 400);
-  createElement("h2", "@planetaimpact");
+  createElement("h2", "@jadegawronterra");
   createSpan("Sua idade:");
   campoIdade = createInput("5");
-  campoFantasia = createCheckbox("Gosta de filmes com Qi alto?");
-  campoAventura = createCheckbox("Gosta de filme sobre sistemas?");
+  campoFantasia = createCheckbox("Gosta de filmes de ação?");
+  campoAventura = createCheckbox("Gosta de filmes com fantasia?");
 }
 
 function draw() {
