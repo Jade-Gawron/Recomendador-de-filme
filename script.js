@@ -4,7 +4,7 @@ let campoAventura;
 
 function setup() {
   createCanvas(800, 400);
-  createElement("h2", "Adão Negro");
+  createElement("h2", "Recomendando filmes para você!");
   createSpan("Sua idade:");
   campoIdade = createInput("5");
   campoFantasia = createCheckbox("Gosta de filmes de fantasia?");
@@ -47,7 +47,7 @@ function geraRecomendacao(idade, gostaDeFantasia, gostaDeAventura) {
     if (gostaDeFantasia) {
       return "Harry Potter - O Prisioneiro de Azkaban";
     } else {
-      return "Jade na área!";
+      return "Adão Negro";
     }
   }
 }
