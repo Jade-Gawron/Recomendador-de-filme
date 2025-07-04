@@ -45,7 +45,7 @@ function geraRecomendacao(idade, gostaDeFantasia, gostaDeAventura) {
     }
   } else {
     if (gostaDeFantasia) {
-      return "@jadegawronterra";
+      return "Harry Potter - O Prisioneiro de Azkaban";
     } else {
       return "Jade na área!";
     }
